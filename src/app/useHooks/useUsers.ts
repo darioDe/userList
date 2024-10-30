@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import UserProps from '../types';
+import { UserProps } from '../types';
 
 export const useUsers = (apiUrl: string) => {
     // State to store users, initialized as an empty array
