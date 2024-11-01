@@ -9,3 +9,12 @@ export interface UserProps {
 export interface TableProps {
     users: UserProps[],
 };
+
+export interface ButtonProps {
+    openModal: boolean;
+    setOpenModal: (value: boolean) => void;
+};
+
+export interface ModalProps {
+    setOpenModal: (value: boolean) => void;
+};

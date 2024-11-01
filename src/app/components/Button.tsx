@@ -1,6 +1,7 @@
+import { ButtonProps } from "../types";
 
 
-export default function Button ({ openModal, setOpenModal }) {
+export default function Button ({ openModal, setOpenModal } : ButtonProps) {
     
 
     const handleClick = () => {
